@@ -38,7 +38,9 @@ def polar(c1):
     polar_c=z*math.sin(a)
     return (polar_r,polar_c)
 
-
+def fase(c1):
+    faseC=math.atan2(c1[1],c1[0])
+    return(faseC)
 
 print(suma((3,2),(-5,5.2)))
 print(suma((7, 3), (5.5, 1.2)))
@@ -61,3 +63,6 @@ print(conjugado((7, 3)))
 print(polar((3, 2)))
 print(polar((7, 3)))
 print(polar((5, -5)))
+
+print(fase((7, 3)))
+print(fase((5, -5)))
