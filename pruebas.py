@@ -56,6 +56,10 @@ class TestOperations(unittest.TestCase):
         self.assertAlmostEqual(polar2[0], 7.000000000000001)
         self.assertAlmostEqual(polar2[1], 3.0)
 
+    def test_fase(self):
+        self.assertEqual(lc.fase((5, -5)), -0.7853981633974483)
+        self.assertEqual(lc.fase((7, 3)), 0.40489178628508343)  
+
 
 
 
