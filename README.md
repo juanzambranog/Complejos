@@ -36,6 +36,11 @@ Cada una de las funciones del programa recibe un par de tuplas y realiza una ope
 
 		retorna la representacion de un par de números complejos (c1).
 
+8. Retornar la fase de un número complejo:
+
+    		retorna la fase de un número complejo (c1).
+   		
+
 
 
 
